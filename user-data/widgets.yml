@@ -1,0 +1,68 @@
+pageInfo:
+  title: Hi, Vincent
+  description: General browser startpage
+  logo: https://i.ibb.co/71WyyzM/little-bot-3.png
+
+appConfig:
+  statusCheck: false
+  theme: Glass
+  fontAwesomeKey: c94dc2b452
+  customCss: '.clock p.time { font-size: 3rem !important; }'
+  layout: Horizontal
+  iconSize: small
+  
+sections:
+- name: Today
+  icon: far fa-smile-beam
+  displayData:
+    collapsed: false
+    hideForGuests: false
+  widgets:
+  - type: clock
+  - type: weather
+    options:
+      apiKey: efdbade728b37086877a5e83442004db
+      city: Almelo
+- name: news
+  icon: far fa-news
+  displayData:
+    collapsed: false
+    hideForGuests: false
+  widgets:
+  - type: rss-feed
+    options:
+        rssUrl: https://feeds.nos.nl/nosnieuwsalgemeen
+- name: network information
+  icon: far fa-router
+  displayData:
+    collapsed: false
+    hideForGuests: false
+  widgets:
+  - type: public-ip
+  - type: blacklist-check
+    options:
+        apiKey: key_RJtsaxALnrtwBVtMCY1RFO0mY
+- name: overig
+  icon: far fa-smile-beam
+  displayData:
+    collapsed: false
+    hideForGuests: false
+  widgets:
+- type: public-holidays
+  options:
+    country: NL
+    holidayType: all
+    monthsToShow: 12
+    lang: en
+- type: sports-scores
+  options:
+    teamId: 133774
+- type: joke
+  options:
+    safeMode: true
+    language: en
+    category: Programming
+  - type: rescue-time
+    useProxy: true
+    options:
+      apiKey: B63i6J7dEW0q7MPT86eQhbh_mJpBGzk9Kd_Ibxkr

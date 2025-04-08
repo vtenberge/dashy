@@ -1,0 +1,133 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Hi, Vincent
+  description: General browser startpage
+  logo: https://i.ibb.co/71WyyzM/little-bot-3.png
+
+
+# Optional app settings and configuration
+appConfig:
+  statusCheck: false
+  theme: Glass
+  fontAwesomeKey: c94dc2b452
+  customCss: '.clock p.time { font-size: 3rem !important; }'
+  layout: vertical
+  iconSize: small
+
+# Main content - An array of sections, each containing an array of items
+sections:
+- name: Today
+  icon: far fa-smile-beam
+  displayData:
+    collapsed: false
+    hideForGuests: false
+  widgets:
+  - type: clock
+  - type: weather
+    options:
+      apiKey: efdbade728b37086877a5e83442004db
+      city: Almelo
+
+- name: Productivity
+  icon: far fa-briefcase
+  items:
+  - title: ProtonMail
+    icon: favicon
+    url: https://mail.protonmail.com/
+    description: Primary email account
+    tags: [hosted, personal, email, mail]
+    hotkey: 1
+  - title: Proton calendar
+    icon: favicon
+    url: https://calendar.proton.me/
+    description: Proton Calendar
+    tags: [hosted, personal, email, mail]
+    hotkey: 2
+  - title: Protonpass
+    icon: favicon
+    url: https://pass.proton.me/
+    description: passwordmanager
+    tags: [hosted, personal, forwarder, aliases, email]
+    hotkey: 3
+    statusCheckAcceptCodes: '401'
+  - title: Outlook
+    icon: favicon
+    url: https://outlook.office.com
+    description: Just Microsoft's mail solution
+    tags: [hosted, personal, password, generate, deterministic]
+    hotkey: 4
+  - title: Shiftbase
+    icon: favicon
+    url: https://app.shiftbase.com/
+    description: Calendar + Contacts, CalDAV sync
+    tags: [hosted, personal, caldav, calendar, contacts, tasks, planning]
+    hotkey: 5
+  - title: Proton drive
+    icon: favicon
+    url: https://drive.proton.me/
+    description: proton drive
+    tags: [hosted, personal, caldav, tasks, planning]
+    hotkey: 6
+  - title: Hidrive
+    icon: favicon
+    url: https://my.hidrive.com/
+    description: Off-site encrypted file sync + backup
+    tags: [hosted, personal, files, backup, sync, storage ]
+    hotkey: 7
+
+- name: Dev & Cloud
+  icon: far fa-code
+  items:
+  - title: GitHub
+    icon: favicon
+    url: https://github.com/
+  - title: CloudFlare
+    icon: favicon
+    url: https://dash.cloudflare.com/
+    statusCheckAcceptCodes: '403'
+  - title: web
+    icon: favicon
+    url: web.netbergehosted.nl
+  - title: VMS
+    icon: favicon
+    url: https://vms.netberge.com
+
+- name: Social & News
+  icon: far fa-thumbs-up
+  items:
+  - title: Discord
+    icon: si-discord
+    url: https://discord.com/channels/
+  - title: Mastodon
+    icon: si-mastodon
+    url: https://mastodon.social/
+  - title: Reddit
+    icon: si-reddit
+    url: https://www.reddit.com/
+  - title: Twitter
+    icon: si-twitter
+    url: https://twitter.com/
+  - title: YouTube
+    icon: si-youtube
+    url: https://youtube.com/
+  - title: Instagram
+    icon: si-instagram
+    url: https://www.instagram.com/
+
+- name: Academie
+  icon: fas fa-futbal
+  items:
+  - title: Soccerlab
+    description: Soccerlab algemeen
+    icon: favicon
+    url: https://fctwente.soccerlab.com
+    target: newtab
+  - title: spiideo
+    description: automatic camera system
+    icon: favicon
+    url: https://app.spiideo.net
+  - title: Nas
+    description: synology
+    icon: Favicon
+    url: https://fctwenteheraclesacademie.quickconnect.to
