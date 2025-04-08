@@ -4,7 +4,7 @@ pageInfo:
   description: Project Management Panel
   logo: 'https://i.ibb.co/fGnr01r/astro-dab.png'
   navLinks:
-  - title: GitHub
+  - title: Google
     path: https://google.com
     
 pages:
@@ -14,7 +14,7 @@ pages:
   path: 'old.yml'
   
 appConfig:
-  theme: dashy-docs
+  theme: glass
   customCss: '@media (min-width: 1780px) { .home .item-group-container:not(.item-size-large) { grid-template-columns: repeat(3, 1fr); } } .home .item-group-container.item-size-large .item-group-grid, .home .item-group-container.orientation-vertical .item-group-grid { display: flex !important; }'
   auth:
     enableGuestAccess: true
@@ -29,7 +29,7 @@ appConfig:
   allowConfigEdit: false
   enableFontAwesome: true
   fontAwesomeKey: 2e949c5bf4
-  faviconApi: faviconkit
+  faviconApi: local
   enableMultiTasking: false
 
 sections:
@@ -129,11 +129,11 @@ sections:
     url: https://fctwente.soccerlab.com
     icon: favicon
   - title: Spiideo
-    icon: favicon
     url: https://app.spiideo.net/accounts/95e8ce5e-7fbe-44f8-a54b-ccf4cc5bbf46/
-  - title: nas
     icon: favicon
+  - title: nas
     url: https://fctwenteheraclesacademie.quickconnect.to/
+    icon: favicon
 
 - name: Overig academie
   icon: fas fa-futbal

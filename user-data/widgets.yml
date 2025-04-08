@@ -8,7 +8,7 @@ appConfig:
   theme: Glass
   fontAwesomeKey: c94dc2b452
   customCss: '.clock p.time { font-size: 3rem !important; }'
-  layout: Horizontal
+  layout: vertical
   iconSize: small
   
 sections:
@@ -53,13 +53,13 @@ sections:
   widgets:
   - type: public-holidays
     options:
-        country: NL
+        country: NLD
         holidayType: all
-        monthsToShow: 12
+        monthsToShow: 3
         lang: en
   - type: sports-scores
     options:
-        teamId: 133774
+      teamId: 133774
   - type: joke
     options:
         safeMode: true
