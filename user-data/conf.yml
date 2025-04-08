@@ -10,8 +10,6 @@ pageInfo:
     path: https://dashy.to/docs/quick-start
   - title: Documentation
     path: https://dashy.to/docs
-  - title: Live Demo
-    path: https://demo.dashy.to
 
 appConfig:
   theme: dashy-docs
@@ -30,11 +28,10 @@ appConfig:
   enableFontAwesome: true
   fontAwesomeKey: 2e949c5bf4
   faviconApi: faviconkit
-  workspaceLandingUrl: https://dashy.to
   enableMultiTasking: false
 
 sections:
-- name: Code Analysis & Monitoring
+- name: Productivity
   icon: fas fa-code
   displayData:
     sortBy: default
@@ -42,158 +39,123 @@ sections:
     itemCountX: 5
     cols: 2
   items:
-  - title: Snyk
-    description: Dependency vulnerability scanning
+  - title: protonmail
     icon: favicon
-    url: https://snyk.io/test/github/Lissy93/dashy
-  - title: Code Beat
-    description: Quality and complexity checking
+    url: https://mail.proton.me/
+  - title: proton calendar
     icon: favicon
-    url: https://codebeat.co/projects/github-com-lissy93-dashy-master
-  - title: Is Maintained
-    description: Issue status and response times
-    url: https://isitmaintained.com/project/lissy93/dashy
+    url: https://calendar.proton.me/u/4/
+  - title: Protonpass
+    url: https://pass.proton.me/
     icon: favicon
-  - title: FOSSA
-    description: Dependency license checking
-    url: https://app.fossa.com/reports/f57fe27a-cc0d-496d-a48f-bdc50147199b
+  - title: protondrive
+    url: https://drive.proton.me/u/4/
     icon: favicon
-  - title: Sonatype
-    description: Automated code security scanning
+  - title: hidrive
     icon: favicon
-    url: https://lift.sonatype.com/result/Lissy93/dashy/01FBPFJZ4H6ANMK8BEE9A15R5V?tab=results
-  - title: DeepSource
-    description: Source code analysis
+    url: https://my.hidrive.com/#login
+  - title: Shiftbase
     icon: favicon
-    url: https://deepsource.io/gh/Lissy93/dashy/issues
-  - title: DeepScan
-    description: Static analysis for finding runtime errors and quality issues
-    url: https://deepscan.io/dashboard#view=project&tid=12411&pid=18128&bid=437203
+    url: https://app.shiftbase.com/
+  - title: Outlook
+    url: https://outlook.office.com/mail/
     icon: favicon
-  - title: LGTM
-    description: Prevention of zero-days through static analysis
-    url: https://lgtm.com/projects/g/Lissy93/dashy
+  - title: Microsoft calendar
+    url: https://outlook.office.com/calendar/
     icon: favicon
-  - title: CodeSense
-    description: Project stats and trends
-    url: https://codescene.io/projects/17448/jobs/223149/results
+  - title: Gmail
+    url: https://gmail.com
     icon: favicon
-  - title: David-DM
-    description: Dependency Update Checking
-    url: https://david-dm.org/lissy93/dashy
+  - title: Rostar
+    url: https://planning.rjsafety-security.nl/
     icon: favicon
 
-- name: Project Stats & Metrics
+- name: Development&Cloud
   icon: fas fa-analytics
   displayData:
-    hideForUsers: [alicia]
+    hideForGuests: true
     sortBy: most-used
   items:
-  - title: Repo Analytics
-    description: Recent traffic and clone stats
-    url: https://repo-analytics.github.io/Lissy93/dashy
+  - title: github
+    url: https://github.com
     icon: favicon
-  - title: Visual Source
-    description: Historical code and contributor graphic
-    url: https://www.visualsource.net/repo/github.com/Lissy93/dashy
+  - title: cloudflare
+    url: https://dash.cloudflare.com/
     icon: favicon
-  - title: StarTrack
-    description: GitHub Stars over Time
-    url: https://seladb.github.io/StarTrack-js/#/preload?r=Lissy93,dashy
-    icon: https://seladb.github.io/StarTrack-js/star-icon.png
-  - title: GitFlowChart
-    description: Branch Topology
-    url: https://app.gfc.io/github/Lissy93/dashy
-    icon: https://app.gfc.io/66ca1ebe6993cbfabdfba26cb9534b76.svg
-  - title: GitMemory
-    description: Repo activity archive
-    url: https://githubmemory.com/repo/lissy93/dashy
+  - title: web
+    url: https://web.netbergehosted.nl
     icon: favicon
-  - title: Cauldron
-    description: Development community stats
-    url: https://cauldron.io/project/4857
+  - title: VMS
+    url: https://web.netberge.com:8006/
     icon: favicon
 
-- name: Deployment & Monitoring
+- name: Socials
   icon: fas fa-rocket-launch
   items:
-  - title: Netlify
-    description: Dev Demo CI and Deployment
-    url: https://app.netlify.com/sites/dashy-dev/deploys
+  - title: discord
+    url: https://discord.com/login
     icon: favicon
-  - title: MeerCode
-    description: Build status for GH actions
-    icon: https://meercode.io/favicon/android-icon-144x144.png
-    url: https://meercode.io/public/dashboard/0a73f116846f6954ba6f3a0b65b13e77:e7f5a35dc463db291e70dffc0c05fc7a945bc571bdc889cd1c64b2f99fb2a5249d93250bbf4655c59db10095f9c9c051
-  - title: Status Page
-    description: Uptime Monitoring
-    provider: Up Down
-    url: https://updown.io/p/b0bkd
+  - title: Youtube
     icon: favicon
-  - title: GitLocalize
-    description: Localisation tool
-    icon: https://avatars.githubusercontent.com/u/25833116
-    url: https://gitlocalize.com/repo/6279
-  - title: Viezly
-    description: Tool for analyzing pull requests
-    url: https://viezly.com/change_requests/3417
+    url: https://youtube.com
+  - title: reddit
+    url: https://reddit.com
     icon: favicon
-  - title: VS Code
-    description: Open Dashy's source code in the VS Code IDE
-    url: https://open.vscode.dev/Lissy93/Dashy
+  - title: Twitter
+    icon: favicon
+    url: https://x.com
+  - title: instagram
+    url: https://instagram.com
     icon: favicon
 
-- name: Socials & Review Sites
-  icon: fas fa-sparkles
+- name: academie
+  icon: fas fa-futbal
+  displayData:
+    hideForGuests: true
+    sortBy: most-used
   items:
-  - title: Product Hunt
+  - title: Hoofdsite
     icon: favicon
-    url: https://www.producthunt.com/posts/dashy
-  - title: Bounty Source
-    url: https://www.bountysource.com/teams/dashy
+    url: https://fctwenteheraclesacademie.nl
+  - title: Regioplan
+    url: https://regioplan.fctwenteheraclesacademie.nl
     icon: favicon
-  - title: Alternative To
+  - title: Pas
     icon: favicon
-    url: https://alternativeto.net/software/dashy/about/
-  - title: StackShare
-    url: https://stackshare.io/Lissy93/dashy
+    url: https://pas.fctwenteheraclesacademie.nl
+  - title: Soccerlab
+    url: https://fctwente.soccerlab.com
     icon: favicon
-  - title: Slant
+  - title: Spiideo
     icon: favicon
-    url: https://www.slant.co/improve/topics/27783/viewpoints/1/~self-hosted-homelab-startpage~dashy
-  - title: GH Sponsors
-    description: Support Dashy's future development
+    url: https://app.spiideo.net/accounts/95e8ce5e-7fbe-44f8-a54b-ccf4cc5bbf46/
+  - title: nas
     icon: favicon
-    url: https://github.com/sponsors/Lissy93
+    url: https://fctwenteheraclesacademie.quickconnect.to/
 
-- name: Environments
-  icon: fas fa-traffic-light-go
+- name: Overig academie
+  icon: fas fa-futbal
   displayData:
     itemSize: large
+    hideForGuests: true
     sortBy: default
     sectionLayout: grid
     itemCountX: 2
   items:
-  - title: ''
-    description: Deployment of master branch
-    icon: https://i.ibb.co/cLfVCQP/dev-env.png
-    url: https://dev.dashy.to
+  - title: scoutingplatform
+    icon: favicon
+    url: https://academie.scoutingplatform.nl
     statusCheck: true
-  - title: ''
-    description: Example instance with demo data
-    icon: https://i.ibb.co/bzVTYMx/live-demo.png
-    url: https://demo.dashy.to
+  - title: acadata
+    icon: favicon
+    url: https://acadata.fctha.nl/
     statusCheck: true
-    statusCheckAllowInsecure: true
-  - title: ''
-    description: Documentation and info website
-    icon: https://i.ibb.co/f8GxrfC/docs-site.png
-    url: https://dashy.to
-    statusCheck: true
-  - title: ''
-    description: Source code, issues and PRs
-    icon: https://i.ibb.co/Lz29Q58/git-hub.png
-    url: https://github.com/lissy93/dashy
+  - title: yodeck
+    icon: favicon
+    url: https://app.yodeck.com/login#main/playlist
+  - title: smart11
+    icon: favicon
+    url: https://app.smart11.ai/dashboard
     statusCheck: true
 
 - name: Repo
