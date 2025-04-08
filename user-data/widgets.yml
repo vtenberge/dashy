@@ -23,6 +23,7 @@ sections:
     options:
       apiKey: efdbade728b37086877a5e83442004db
       city: Almelo
+
 - name: news
   icon: far fa-news
   displayData:
@@ -32,6 +33,7 @@ sections:
   - type: rss-feed
     options:
         rssUrl: https://feeds.nos.nl/nosnieuwsalgemeen
+
 - name: network information
   icon: far fa-router
   displayData:
@@ -42,26 +44,27 @@ sections:
   - type: blacklist-check
     options:
         apiKey: key_RJtsaxALnrtwBVtMCY1RFO0mY
+
 - name: overig
   icon: far fa-smile-beam
   displayData:
     collapsed: false
     hideForGuests: false
   widgets:
-- type: public-holidays
-  options:
-    country: NL
-    holidayType: all
-    monthsToShow: 12
-    lang: en
-- type: sports-scores
-  options:
-    teamId: 133774
-- type: joke
-  options:
-    safeMode: true
-    language: en
-    category: Programming
+  - type: public-holidays
+    options:
+        country: NL
+        holidayType: all
+        monthsToShow: 12
+        lang: en
+  - type: sports-scores
+    options:
+        teamId: 133774
+  - type: joke
+    options:
+        safeMode: true
+        language: en
+        category: Programming
   - type: rescue-time
     useProxy: true
     options:
